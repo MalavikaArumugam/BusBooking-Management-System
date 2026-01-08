@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Buses</title>
+    <link rel="stylesheet" href="/bus-booking-system/css/common.css">
+    <link rel="stylesheet" href="/bus-booking-system/css/search.css">
+</head>
+<body>
+
+<header>Search Buses</header>
+
+<nav>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="search.html">Search</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h2>Journey Details</h2>
+
+        <input type="text" placeholder="From">
+        <input type="text" placeholder="To">
+        <input type="date">
+
+        <button onclick="search()">Search Buses</button>
+    </div>
+</div>
+
+<script src="/bus-booking-system/js/common.js"></script>
+<script src="/bus-booking-system/js/search.js"></script>
+</body>
+</html>

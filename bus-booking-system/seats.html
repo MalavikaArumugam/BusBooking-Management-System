@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Seats</title>
+    <link rel="stylesheet" href="/bus-booking-system/css/common.css">
+    <link rel="stylesheet" href="/bus-booking-system/css/seats.css">
+</head>
+<body>
+
+<header>Seat Selection</header>
+
+<nav>
+    <div>
+        <a href="buses.html">Back</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="seat-wrapper">
+
+        <div class="card">
+            <h2>Sitter Seats (Left)</h2>
+            <div class="seat-grid">
+                <div class="seat" onclick="selectSeat(this)">S1</div>
+                <div class="seat" onclick="selectSeat(this)">S2</div>
+                <div class="seat" onclick="selectSeat(this)">S3</div>
+                <div class="seat" onclick="selectSeat(this)">S4</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Sleeper Seats (Right)</h2>
+            <div class="seat-grid sleeper">
+                <div class="seat" onclick="selectSeat(this)">L1</div>
+                <div class="seat" onclick="selectSeat(this)">L2</div>
+                <div class="seat" onclick="selectSeat(this)">L3</div>
+                <div class="seat" onclick="selectSeat(this)">L4</div>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="goToPayment()">Proceed to Payment</button>
+</div>
+
+<script src="/bus-booking-system/js/common.js"></script>
+<script src="/bus-booking-system/js/seats.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.seat-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.seat-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 60px);
+    gap: 15px;
+}
+
+.sleeper {
+    grid-template-columns: repeat(1, 120px);
+}
+
+.seat {
+    background: #e0e0e0;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.seat.selected {
+    background: #1e88e5;
+    color: white;
+}

@@ -1,0 +1,42 @@
+/* Payment Page Styling */
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.card h2 {
+    font-size: 26px;
+    color: #0d47a1;
+    margin-bottom: 15px;
+}
+
+#seatInfo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.payment-option:hover {
+    background: #e3f2fd;
+}
+
+.payment-option input {
+    margin-right: 10px;
+}
+
+.card button {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+}

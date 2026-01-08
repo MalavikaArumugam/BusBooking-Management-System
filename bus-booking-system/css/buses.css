@@ -1,0 +1,74 @@
+/* Buses Page Styling */
+
+/* Page heading inside cards */
+.card h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #0d47a1;
+}
+
+/* Bus card container */
+.bus-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+/* Bus image */
+.bus-card img {
+    width: 80px;
+    height: auto;
+}
+
+/* Bus info text */
+.bus-card p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Select button */
+.bus-card button {
+    font-size: 16px;
+}
+
+/* Limit content width */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Table styling enhancement */
+table {
+    margin-top: 10px;
+}
+
+table td {
+    font-size: 17px;
+}
+
+table th {
+    font-size: 18px;
+}
+
+/* Hover effect on table rows */
+table tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* Responsive design */
+@media (max-width: 700px) {
+    .bus-card {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .bus-card img {
+        width: 60px;
+    }
+}

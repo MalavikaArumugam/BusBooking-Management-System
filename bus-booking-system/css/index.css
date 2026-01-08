@@ -1,0 +1,68 @@
+/* Home Page Styling */
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Welcome Card */
+.card h2 {
+    font-size: 32px;
+    color: #0d47a1;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Feature Section */
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.feature-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    width: 100%;
+    text-align: center;
+}
+
+.feature-card img {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.feature-card h3 {
+    font-size: 22px;
+    color: #1565c0;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 17px;
+}
+
+/* Button section */
+.home-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.home-btn button {
+    font-size: 18px;
+    padding: 12px 25px;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    .features {
+        flex-direction: column;
+    }
+}

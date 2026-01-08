@@ -1,0 +1,45 @@
+/* Search Page Specific Styling */
+
+.card h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0d47a1;
+}
+
+.card input {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.card input:focus {
+    outline: none;
+    border-color: #1e88e5;
+    box-shadow: 0 0 5px rgba(30, 136, 229, 0.4);
+}
+
+.card button {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Center card and limit width */
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .card h2 {
+        font-size: 24px;
+    }
+
+    .card input {
+        font-size: 16px;
+    }
+}
